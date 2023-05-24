@@ -1,5 +1,6 @@
 # pipex
 A program that will mimic '< infile cmd1 | cmd2 > outfile' in bash.
+
 usage: ./pipex infile "cmd1" "cmd2" outfile
 
 Designed for a project assigned by 42 School.
