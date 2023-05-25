@@ -6,7 +6,7 @@
 /*   By: dhadding <daniel42.c@engineer.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 10:49:47 by dhadding          #+#    #+#             */
-/*   Updated: 2023/05/24 20:43:52 by dhadding         ###   ########.fr       */
+/*   Updated: 2023/05/26 05:23:19 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,8 +28,6 @@ void	init_struct(void)
 	g_data->outfile = NULL;
 	g_data->cmd1 = NULL;
 	g_data->cmd2 = NULL;
-	g_data->cmdpath1 = NULL;
-	g_data->cmdpath2 = NULL;
 }
 
 void	parse_args(char **argv)

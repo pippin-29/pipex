@@ -6,7 +6,7 @@
 /*   By: dhadding <daniel42.c@engineer.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/13 04:48:36 by dhadding          #+#    #+#             */
-/*   Updated: 2023/05/24 20:47:56 by dhadding         ###   ########.fr       */
+/*   Updated: 2023/05/26 05:21:55 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,8 +27,6 @@ typedef struct s_pipex
 	char	**cmd2;
 	char	*outfile;
 	pid_t	pid;
-	char	*cmdpath1;
-	char	*cmdpath2;
 }	t_pipex;
 
 extern t_pipex	*g_data;
