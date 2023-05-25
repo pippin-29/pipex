@@ -16,9 +16,9 @@ outfile is deleted before program is run(in the case that it exists)
 
 file descriptor for infile and outfile are assigned,
 
-two file descriptors are assigned with the pipe function,
+two file descriptors are assigned with the pipe() function,
 
-then the fork function is used to create a simultaneous work flow with a parent and child process,
+then the fork() function is used to create a simultaneous work flow with a parent and child process,
 
 child process uses dup2() to replace the std input with infile fd, and again to replace std output with the pipe output,
 
