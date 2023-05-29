@@ -6,7 +6,7 @@
 /*   By: dhadding <daniel42.c@engineer.com>         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/24 10:49:47 by dhadding          #+#    #+#             */
-/*   Updated: 2023/05/26 05:23:19 by dhadding         ###   ########.fr       */
+/*   Updated: 2023/05/29 09:25:15 by dhadding         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,5 +45,5 @@ void	create_fd_io(void)
 		perror("Error: Infile Open");
 	g_data->fd_out = open(g_data->outfile, O_CREAT | O_WRONLY, 0644);
 	if (g_data->fd_out == -1)
-		perror("Error: Outfile Open");
+		exit(1);
 }
